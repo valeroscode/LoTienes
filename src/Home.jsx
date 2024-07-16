@@ -51,7 +51,7 @@ if (document.getElementById('nav-bar').style.display === 'none') {
   document.getElementById('nav-bar').style.display = 'flex'
 }
 
-    oneMission.current.click();
+    welcome.current.click();
 
   }, [])
 
