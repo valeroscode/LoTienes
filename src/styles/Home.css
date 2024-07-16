@@ -244,6 +244,7 @@
 .ind-sessions {
   margin-bottom: 0;
   margin-top: 5rem;
+  display: none;
 }
 
 #vision-info-3-tagline h1 a {
@@ -342,7 +343,7 @@
 }
 
 #packages {
-  display: flex;
+  display: none;
   justify-content: space-between;
   align-items: start;
   position: relative;
