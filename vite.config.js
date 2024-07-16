@@ -8,4 +8,7 @@ dotenv.config();
 export default defineConfig({
   plugins: [react()],
    base: 'LoTienes',
+  build: {
+    outDir: 'docs', // or any other directory you prefer
+  },
 });
