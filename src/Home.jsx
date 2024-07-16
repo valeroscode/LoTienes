@@ -51,7 +51,7 @@ if (document.getElementById('nav-bar').style.display === 'none') {
   document.getElementById('nav-bar').style.display = 'flex'
 }
 
-    welcome.current.click();
+    document.getElementById("vision-info-2").click();
 
   }, [])
 
