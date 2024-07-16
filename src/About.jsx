@@ -40,7 +40,7 @@ function About() {
         <h1 className='montserrat-800'>About Me.</h1>
         <h3 className='montserrat-800'>I'm a young man with a <a className='montserrat-800'>passion</a> for language and cultural immersion.</h3>
         <p className='montserrat-400'>
-        This has led me to obtain fluency in Spanish over the past 9 years. Throughout the process, I have been able to meet a ton of amazing people, travel to some beautiful places, develop cultural competency, social awareness, social skills, and much more. My objective is to help Spanish and English speakers achieve their language goals.
+        This has led me to obtain fluency in Spanish over the past 9 years. Throughout the process, I have been able to meet a ton of amazing people, travel to some beautiful places, live in 2 different countries, develop cultural competency, social awareness, social skills, and much more. My objective is to help Spanish and English speakers achieve their language goals.
         </p>
         <div id='about-me-buttons' className='montserrat-800'>
           <a className='montserrat-800' href="mailto: dejour.banks02@gmail.com">Get In Contact</a>
