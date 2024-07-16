@@ -210,7 +210,7 @@ if (document.getElementById('nav-bar').style.display === 'none') {
             <p className='package-p montserrat-400'><a>Tailored Lessons</a></p>
             <p className='package-p montserrat-400'><a>At Your Pace</a></p>
             <p className='package-p montserrat-400'><a>Group of 3 - 7</a></p>
-            <button>Let's Go</button>
+            <button onClick={() => window.open("https://calendly.com/dejour-banks02/group-spanish-consultation")}>Let's Go</button>
           </div>
         </div>
 
