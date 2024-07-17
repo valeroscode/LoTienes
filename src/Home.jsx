@@ -51,7 +51,23 @@ if (document.getElementById('nav-bar').style.display === 'none') {
   document.getElementById('nav-bar').style.display = 'flex'
 }
 
-    document.getElementById("vision-info-2").click();
+const breakpoint = 450;
+const currentWidth = window.innerWidth;
+
+if (currentWidth < breakpoint) {
+  
+  const touchEvent = new TouchEvent('touchstart', {
+    touches: [
+      {
+        identifier: 1,
+        target: document.getElementById('vision-info-2'),
+        clientX: currentWidth / 2,
+        clientY: currentWidth / 2,
+      },
+    ],
+  });
+  document.dispatchEvent(touchEvent);
+}
 
   }, [])
 
