@@ -9,6 +9,7 @@
   filter: contrast(105%);
   width: 100%;
   align-items: center;
+  padding-bottom: 7rem;
   border-radius: 10px;
 }
 
@@ -920,6 +921,9 @@
 }
 
 @media screen and (max-width: 450px) {
+  #vision-section {
+    padding-bottom: 3rem;
+  }
   #vision-info {
     top: 10rem;
   }
