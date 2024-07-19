@@ -3,7 +3,7 @@
   text-align: center;
   background-color: #1D1D1D;
   overflow-x: hidden;
-  -webkit-overflow-scrolling: touch
+  overflow-y: hidden;
 }
 
 body {
