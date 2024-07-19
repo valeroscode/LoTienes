@@ -921,6 +921,10 @@
 }
 
 @media screen and (max-width: 450px) {
+  #intake-session p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
   #vision-section {
     padding-bottom: 3rem;
   }
