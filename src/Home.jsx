@@ -136,11 +136,11 @@ document.getElementById('vision-info-2').click();
 
       <div id='intake-session'>
         <div>
-         <h3 className='montserrat-800'>Start Off With An Intake Session!</h3>
+         <h3 className='montserrat-800'>Spanish Consultation/Conversation Practice</h3>
          </div>
          <p>Includes a proficiency assessment</p>
          <h2>$25</h2>
-         <button className='montserrat-800' onClick={() => window.open('https://calendly.com/dejour-banks02/spanish-consultation?fbclid=PAZXh0bgNhZW0CMTEAAaYsjHtY0UTjxzjJO5W4KojqejKul8hHWwYWGkuPTjKYgYJea26ysLPiPsI_aem_nf-7ErjjTY21JCssKZIRtA')}>Schedule</button>
+         <button className='montserrat-800' onClick={() => window.open('https://calendly.com/dejour-banks02/spanish-consultation')}>Schedule</button>
       </div>
 
       </div>
@@ -196,7 +196,7 @@ document.getElementById('vision-info-2').click();
 
       </div>
 
-      <div id='group-pack'>
+      <div id='group-pack' style={{display: 'none'}}>
        <h2>Group Sessions</h2>
 
        <div className='package-2'>
