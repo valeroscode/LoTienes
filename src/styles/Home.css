@@ -927,6 +927,16 @@
 }
 
 @media screen and (max-width: 450px) {
+  #intake-session {
+    width: 80vw;
+    margin-left: 0.5rem;
+  }
+  #intake-session h3 {
+    font-size: 1.25rem;
+  }
+  #first-time {
+    width: 75vw;
+  }
   #intake-session p {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -999,6 +1009,9 @@
   }
 
   @media screen and (max-width: 376px) {
+    #intake-session h3 {
+      font-size: 1.15rem;
+    }
     #vision-info h1 {
       font-size: 3.5rem;
     }

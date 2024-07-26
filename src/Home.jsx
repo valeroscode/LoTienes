@@ -143,7 +143,7 @@ document.getElementById('vision-info-2').click();
          <button className='montserrat-800' onClick={() => window.open('https://calendly.com/dejour-banks02/spanish-consultation')}>Schedule</button>
       </div>
 
-      <div id='call-to-action-div' style={{top: '5rem', justifyContent: 'center'}}>
+      <div id='call-to-action-div' style={{top: '5rem', justifyContent: 'center', width: 'unset'}}>
       <p className='montserrat-400'>Want To Learn More About Me?</p>
       <Link to="/About"><button id='call-to-action' className='montserrat-800'>Learn More</button></Link>
       </div>
