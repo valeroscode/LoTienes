@@ -108,7 +108,7 @@
   width: 100vw;
   height: fit-content;
   position: relative;
-  top: 10rem;
+  top: 7rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -234,7 +234,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 7rem;
+  margin-top: 4rem;
 }
 
 #first-time .first {
@@ -765,6 +765,12 @@
 }
 
 @media screen and (max-width: 1024px) {
+
+  .hola {
+    left: 4rem;
+    opacity: 0.1;
+    width: 82%;
+  }
 
   #slidingDivs .slide1 {
     display: flex;

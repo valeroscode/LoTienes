@@ -143,6 +143,11 @@ document.getElementById('vision-info-2').click();
          <button className='montserrat-800' onClick={() => window.open('https://calendly.com/dejour-banks02/spanish-consultation')}>Schedule</button>
       </div>
 
+      <div id='call-to-action-div' style={{top: '5rem', justifyContent: 'center'}}>
+      <p className='montserrat-400'>Want To Learn More About Me?</p>
+      <Link to="/About"><button id='call-to-action' className='montserrat-800'>Learn More</button></Link>
+      </div>
+
       </div>
 
       <h2 className='montserrat-800 ind-sessions'>Individual Sessions</h2>
@@ -216,11 +221,6 @@ document.getElementById('vision-info-2').click();
 
       </div>
 
-      </div>
-
-      <div id='call-to-action-div'>
-      <p className='montserrat-400'>Want To Learn More About Me?</p>
-      <Link to="/About"><button id='call-to-action' className='montserrat-800'>Learn More</button></Link>
       </div>
       
       </div>

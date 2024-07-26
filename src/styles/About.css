@@ -269,7 +269,7 @@ z-index: 1;
     position: relative;
     width: 100%;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     top:10rem;
     padding-bottom: 10rem;
@@ -387,8 +387,18 @@ z-index: 1;
     .platform-container p {
         min-height: unset;
     }
-    #platform-containers-parent {
-        flex-direction: column;
+    .platform-images img {
+        height: 19rem;
+    }
+    .platform-container {
+        width: 23rem;
+    }
+    .platform-container p {
+        min-height: 6rem;
+        width: 83%;
+    }
+    .platform-container h4 {
+        margin-bottom: 0.5rem;
     }
 }
 
@@ -397,7 +407,11 @@ z-index: 1;
         top: 23rem;
     }
     #platform-containers-parent {
-        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .platform-container {
+        margin-bottom: 2rem;
     }
 
     #article-list img {
